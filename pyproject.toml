@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stop-out-model"
+version = "0.1.0"
+description = "Deterministic isolated-margin liquidation boundaries for linear contracts"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+stop-out-model = "stop_out_model.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["stop_out_model*"]

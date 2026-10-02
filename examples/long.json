@@ -1,0 +1,16 @@
+{
+  "position": {
+    "side": "long",
+    "quantity": "1",
+    "mark_price": "3000",
+    "equity": "150"
+  },
+  "maintenance_tiers": [
+    {
+      "notional_floor": "0",
+      "maintenance_margin_rate": "0.005",
+      "maintenance_amount": "0"
+    }
+  ],
+  "close_fee_rate": "0"
+}
