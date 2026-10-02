@@ -1,0 +1,34 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Local datasets and generated model artifacts
+/data/
+/artifacts/
+/checkpoints/
+/runs/
+/logs/
+*.log
+
+# Local tooling and OS files
+.local/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
